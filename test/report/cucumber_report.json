@@ -1,0 +1,366 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 19,
+        "name": "Bebiendo",
+        "description": "",
+        "id": "categoria-comics;bebiendo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 692700200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Hay 10 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 4
+                }
+              ],
+              "location": "Test.hayCervezas(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 287000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "tomo 5 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 5
+                }
+              ],
+              "location": "Test.tomoCervezas(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11395000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Deberian quedar 5 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 16
+                }
+              ],
+              "location": "Test.deberianQuedarCervezas(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@outline"
+          },
+          {
+            "line": 11,
+            "name": "@fast"
+          },
+          {
+            "line": 1,
+            "name": "@funcional"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Bebiendo",
+        "description": "",
+        "id": "categoria-comics;bebiendo;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 575500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Hay 10 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 4
+                }
+              ],
+              "location": "Test.hayCervezas(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "tomo 10 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 5
+                }
+              ],
+              "location": "Test.tomoCervezas(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Deberian quedar 0 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 16
+                }
+              ],
+              "location": "Test.deberianQuedarCervezas(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@outline"
+          },
+          {
+            "line": 11,
+            "name": "@fast"
+          },
+          {
+            "line": 1,
+            "name": "@funcional"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Bebiendo",
+        "description": "",
+        "id": "categoria-comics;bebiendo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1013800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Hay 80 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "80",
+                  "offset": 4
+                }
+              ],
+              "location": "Test.hayCervezas(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 279800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "tomo 30 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 5
+                }
+              ],
+              "location": "Test.tomoCervezas(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Deberian quedar 50 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 16
+                }
+              ],
+              "location": "Test.deberianQuedarCervezas(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@outline"
+          },
+          {
+            "line": 11,
+            "name": "@fast"
+          },
+          {
+            "line": 1,
+            "name": "@funcional"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Bebiendo",
+        "description": "",
+        "id": "categoria-comics;bebiendo;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1486000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Hay 30 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 4
+                }
+              ],
+              "location": "Test.hayCervezas(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 233200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "tomo 10 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 5
+                }
+              ],
+              "location": "Test.tomoCervezas(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 634100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Deberian quedar 20 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 16
+                }
+              ],
+              "location": "Test.deberianQuedarCervezas(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@outline"
+          },
+          {
+            "line": 11,
+            "name": "@fast"
+          },
+          {
+            "line": 1,
+            "name": "@funcional"
+          }
+        ]
+      }
+    ],
+    "name": "Categoria Comics",
+    "description": "Como usuario quiero leer chistes de testers para reirme y pasar un buen rato.",
+    "id": "categoria-comics",
+    "keyword": "Feature",
+    "uri": "test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@funcional"
+      }
+    ]
+  }
+]
